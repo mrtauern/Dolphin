@@ -17,8 +17,6 @@ public class SwimmingClub {
       file.openFile("Records.txt");
       file.readRecords(records);
       file.closeFile();
-
-      //hej
       
       menu.startMenu(users, records);
       
